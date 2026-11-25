@@ -1,0 +1,16 @@
+# Runs on Google Colab (Python 3, T4 GPU). torch is preinstalled on Colab.
+# Exact versions used in the reported run: see outputs/environment.txt
+torch
+transformers>=4.56        # run used 5.22.1
+accelerate
+sentence-transformers>=3.0
+faiss-cpu
+rank_bm25
+pymupdf
+ebooklib
+beautifulsoup4
+langfuse>=5,<6
+pandas
+numpy
+requests
+# optional: bitsandbytes  (only for RAG_LLM_4BIT=true)

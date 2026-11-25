@@ -1,0 +1,12 @@
+# Source documents are downloaded separately (see README §5) and not redistributed
+*.epub
+*.pdf
+data/
+
+# Credentials
+.env
+
+# Local caches
+index/
+__pycache__/
+.ipynb_checkpoints/
